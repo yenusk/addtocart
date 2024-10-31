@@ -1,0 +1,1082 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+ 
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>YUNUS STORE</title>
+    <link rel="icon" type="image/x-icon" href="./assets/images/y-logo.jfif">
+</head>
+<body> 
+    <header class="sticky-top mx-auto my-2 py-1 px-3">
+            <div class="container-fluid">
+                <div class="" id="navbarNav">
+                    <ul class="navbar-nav ms-auto d-flex     flex-row justify-content-between">
+                        <a class="navbar-brand" href=""><img src="./assets/images/y-logo.jfif" alt="Yunus-Store"><span class="fs-5 logo"><em>YUNUS<sup class="logo">Store</sup></span></em></a>
+                        <li class="nav-item  d-none d-md-block d-xl-block"><a class="nav-link text-white" href="#">Home</a></li>
+                        <li class="nav-item  d-none d-md-block d-xl-block"><a  class="nav-link text-white" href="#shoes">Shoes</a></li>
+                        <li class="nav-item  d-none d-md-block d-xl-block"><a  class="nav-link text-white" href="#perfume">Perfume</a></li>
+                        <li class="nav-item  d-none d-md-block d-xl-block"><a  class="nav-link text-white" href="#laptop">Laptops</a></li>
+                        <li class="nav-item  d-none d-md-block d-xl-block"><a class="nav-link text-white" href="#watch">Watches</a></li>
+                        <li class="nav-item  d-none d-md-block d-xl-block"><a class="nav-link text-white" href="#jacket">Jackets</a></li>
+                        <li class="nav-item  d-none d-md-block d-xl-block"><a class="nav-link text-white" href="#phone">Phones</a></li>
+                        <li class="nav-item  d-none d-md-block d-xl-block"><a class="nav-link text-white" href="#footer">Contact</a></li>
+                        <div class="dropdown">
+                            <button onclick="menuFun()" class="dropbtn fs-1 d-md-none"><i class="fas fa-bars dropbtn menu-icon text-white " id="dropdown"></i></button> 
+                            <div id="myDropdown" class="dropdown-content">
+                              <a href="#">Home</a>
+                              <a  href="#shoes">Shoes</a>
+                              <a  href="#perfume">Perfume</a>
+                              <a  href="#laptop">Laptops</a>
+                              <a  href="#watch">Watches</a>
+                              <a  href="#jacket">Jackets</a>
+                              <a  href="#phone">Phones</a>
+                              <a  href="#footer">contacts</a>
+                            </div>
+                          </div>
+                          <div id="icon-cart">
+                            <i class="bi bi-cart3 text-white fs-1" title="Click to See Your Cart" ></i>
+                            <span id="cart-span">0</span>
+                          </div>
+                    </ul>
+                </div>
+            </div>
+    </header> 
+    <section id="hero" class="hero content">
+       <div class="hero-wrapper">
+        <h2 class="text-white fs-1 animate-fade-in"><strong>Best Products for YOU...</strong></h2>
+        <p class="text-white mt-4 fs-3"><em>Get The Best And New Arrival Products Here...</em></p>
+        <a href="#collection">
+            <button class="mt-4 px-3 py-3 border-0 rounded-pill bg-danger text-white animate-fade-in">Shop Now</button>
+        </a>
+       </div>
+    </section>
+    <h1 id="latest" class="heading text-center my-5">Our Latest Products</h1>
+    <section class="sec" id="collection">
+        <div class="products">
+            <!-- start -->
+            <div class="card product">
+                <div class="img"><img src="./assets/images/watch10.jpg" alt=""></div>
+                <div class="desc">Watch</div>
+                <div class="title">Lady Watch</div>
+                <div class="box">
+                    <div class="price">$40</div>
+                    <button class="add-to-cart btn" data-id="1" data-name="watch" data-price="40" data-image="./assets/images/watch10.jpg" >Add to Cart</button>
+                </div>
+            </div>
+            <!-- end -->
+
+            <!-- start -->
+            <div class="card product">
+                <div class="img"><img src="./assets/images/chair1.jpg" alt=""></div>
+                <div class="desc">Chair</div>
+                <div class="title">Arm Chair</div>
+                <div class="box">
+                    <div class="price">$60</div>
+                    <button class="add-to-cart btn" data-id="01" data-name="chair" data-price="60" data-image="./assets/images/chair1.jpg" >Add to Cart</button>
+                </div>
+            </div>
+            <!-- end -->
+
+             <!-- start -->
+            <div class="card product">
+                <div class="img"><img src="./assets/images/watch2.jpg" alt=""></div>
+                <div class="desc">Watch</div>
+                <div class="title">SKMEI Dual Time Watch</div>
+                <div class="box">
+                    <div class="price">$45</div>
+                    <button class="add-to-cart btn" data-id="2" data-name="watch" data-price="45" data-image="./assets/images/watch2.jpg" >Add to Cart</button>
+                </div>
+            </div>
+            <!-- end -->
+            <!-- start -->
+            <div class="card product">
+                <div class="img"><img src="./assets/images/chair2.jpg" alt=""></div>
+                <div class="desc">chair</div>
+                <div class="title">Arm chair</div>
+                <div class="box">
+                    <div class="price">$50</div>
+                    <button class="add-to-cart btn" data-id="02" data-name="chair" data-price="50" data-image="./assets/images/chair2.jpg" >Add to Cart</button>
+                </div>
+            </div>
+            <!-- end -->
+             <!-- start -->
+            <div class="card product">
+                <div class="img"><img src="./assets/images/shoe4.jpg" alt=""></div>
+                <div class="desc">shoes</div>
+                <div class="title">Nike Shoes</div>
+                <div class="box">
+                    <div class="price">$20</div>
+                    <button class="add-to-cart btn" data-id="3" data-name="shoes" data-price="20" data-image="./assets/images/shoe4.jpg" >Add to Cart</button>
+                </div>
+            </div>
+            <!-- end -->
+
+             <!-- card start -->
+            <div class="card product">
+                <div class="img"><img src="./assets/images/shoe7.jpg" alt=""></div>
+                <div class="desc">shoes</div>
+                <div class="title">Leather Boots shoes</div>
+                <div class="box">
+                    <div class="price">$30</div>
+                    <button class="add-to-cart btn" data-id="4" data-name="shoes" data-price="30" data-image="./assets/images/shoe7.jpg" >Add to Cart</button>
+                </div>
+            </div>
+            <!-- end -->
+
+             <!-- card start -->
+            <div class="card product">
+                <div class="img"><img src="./assets/images/perfum1.jpg" alt=""></div>
+                <div class="desc">perfume</div>
+                <div class="title">Bleu De Chanel</div>
+                <div class="box">
+                    <div class="price">$20</div>
+                    <button class="add-to-cart btn" data-id="5" data-name="perfume" data-price="20" data-image="./assets/images/perfum1.jpg" >Add to Cart</button>
+                </div>
+            </div>
+            <!-- end -->
+                <!-- start -->
+            <div class="card product">
+                <div class="img"><img src="./assets/images/chair3.png" alt=""></div>
+                <div class="desc">Chair</div>
+                <div class="title">Red Leather Armchair</div>
+                <div class="box">
+                    <div class="price">$70</div>
+                    <button class="add-to-cart btn" data-id="03" data-name="chair" data-price="70" data-image="./assets/images/chair3.png" >Add to Cart</button>
+                </div>
+            </div>
+            <!-- end -->
+             <!-- card start -->
+            <div class="card product">
+                <div class="img"><img src="./assets/images/perfum2.png" alt=""></div>
+                <div class="desc">perfume</div>
+                <div class="title">DIOR J'Adore Perfume</div>
+                <div class="box">
+                    <div class="price">$10</div>
+                    <button class="add-to-cart btn" data-id="6" data-name="perfume" data-price="10" data-image="./assets/images/perfum2.png" >Add to Cart</button>
+                </div>
+            </div>
+            <!-- end -->
+
+             <!-- card start -->
+            <div class="card product">
+                <div class="img"><img src="./assets/images/lap1.jpg" alt=""></div>
+                <div class="desc">Laptop</div>
+                <div class="title">HP laptop</div>
+                <div class="box">
+                    <div class="price">$300</div>
+                    <button class="add-to-cart btn" data-id="7" data-name="laptop" data-price="300" data-image="./assets/images/lap1.jpg" >Add to Cart</button>
+                </div>
+            </div>
+            <!-- end -->
+                <!-- start -->
+            <div class="card product">
+                <div class="img"><img src="./assets/images/chair5.jpg" alt=""></div>
+                <div class="desc">Chair</div>
+                <div class="title">Office Guest chair</div>
+                <div class="box">
+                    <div class="price">$80</div>
+                    <button class="add-to-cart btn" data-id="04" data-name="chair" data-price="80" data-image="./assets/images/chair5.jpg" >Add to Cart</button>
+                </div>
+            </div>
+            <!-- end -->
+             <!-- card start -->
+            <div class="card product">
+                <div class="img"><img src="./assets/images/lap7.jpg" alt=""></div>
+                <div class="desc">Laptop</div>
+                <div class="title">Acer Gaming laptop</div>
+                <div class="box">
+                    <div class="price">$800</div>
+                    <button class="add-to-cart btn" data-id="8" data-name="laptop" data-price="800" data-image="./assets/images/lap7.jpg" >Add to Cart</button>
+                </div>
+            </div>
+            <!-- end -->
+
+             <!-- card start -->
+            <div class="card product">
+                <div class="img"><img src="./assets/images/jack1.jpg" alt=""></div>
+                <div class="desc">Jacket</div>
+                <div class="title">Jeans Jacket</div>
+                <div class="box">
+                    <div class="price">$20</div>
+                    <button class="add-to-cart btn" data-id="9" data-name="Jacket" data-price="20" data-image="./assets/images/jack1.jpg" >Add to Cart</button>
+                </div>
+            </div>
+            <!-- end -->
+                <!-- start -->
+            <div class="card product">
+                <div class="img"><img src="./assets/images/bag1.jpg" alt=""></div>
+                <div class="desc">Bag</div>
+                <div class="title">Travel bag</div>
+                <div class="box">
+                    <div class="price">$67</div>
+                    <button class="add-to-cart btn" data-id="05" data-name="bag" data-price="67" data-image="./assets/images/bag1.jpg" >Add to Cart</button>
+                </div>
+            </div>
+            <!-- end -->
+             <!-- card start -->
+            <div class="card product">
+                <div class="img"><img src="./assets/images/jack2.png" alt=""></div>
+                <div class="desc">jacket</div>
+                <div class="title">women jacket</div>
+                <div class="box">
+                    <div class="price">$20</div>
+                    <button class="add-to-cart btn" data-id="10" data-name="jacket" data-price="20" data-image="./assets/images/jack2.png" >Add to Cart</button>
+                </div>
+            </div>
+            <!-- end -->
+             <!-- start -->
+            <div class="card product">
+                <div class="img"><img src="./assets/images/bag2.png" alt=""></div>
+                <div class="desc">Bag</div>
+                <div class="title">Mini bag collections</div>
+                <div class="box">
+                    <div class="price">$49</div>
+                    <button class="add-to-cart btn" data-id="06" data-name="bag" data-price="49" data-image="./assets/images/bag2.png" >Add to Cart</button>
+                </div>
+            </div>
+            <!-- end -->
+             <!-- start -->
+            <div class="card product">
+                <div class="img"><img src="./assets/images/airpod1.jpg" alt=""></div>
+                <div class="desc">Airpod</div>
+                <div class="title">Apple AirpodsMax</div>
+                <div class="box">
+                    <div class="price">$40</div>
+                    <button class="add-to-cart btn" data-id="07" data-name="airpod" data-price="40" data-image="./assets/images/airpod1.jpg" >Add to Cart</button>
+                </div>
+            </div>
+            <!-- end -->
+             <!-- start -->
+            <div class="card product">
+                <div class="img"><img src="./assets/images/airpod2.jpg" alt=""></div>
+                <div class="desc">Airpod</div>
+                <div class="title">SONY ULT Wireless</div>
+                <div class="box">
+                    <div class="price">$30</div>
+                    <button class="add-to-cart btn" data-id="08" data-name="airpod" data-price="40" data-image="./assets/images/airpod2.jpg" >Add to Cart</button>
+                </div>
+            </div>
+            <!-- end -->
+
+        </div>
+    </section>
+    <section class="sec" id="shoes">  <h1 class="mb-5 p-2"><span class="text-danger"> // </span>Shoes</h1>
+        <div class="products">
+            <!-- start -->
+            <div class="card product">
+                <div class="img"><img src="./assets/images/shoe1.jpg" alt=""></div>
+                <div class="desc">shoes</div>
+                <div class="title">Women's Shoes</div>
+                <div class="box">
+                    <div class="price">$30</div>
+                    <button class="add-to-cart btn" data-id="11" data-name="shoes" data-price="30" data-image="./imagesshoe1.jpg" >Add to Cart</button>
+                </div>
+            </div>
+            <!-- end -->
+
+             <!-- start -->
+            <div class="card product">
+                <div class="img"><img src="./assets/images/shoe2.jpg" alt=""></div>
+                <div class="desc">shoes</div>
+                <div class="title">Men's Lether Shoes</div>
+                <div class="box">
+                    <div class="price">$29</div>
+                    <button class="add-to-cart btn" data-id="12" data-name="shoes" data-price="29" data-image="./assets/images/shoe2.jpg" >Add to Cart</button>
+                </div>
+            </div>
+            <!-- end -->
+
+             <!-- start -->
+            <div class="card product">
+                <div class="img"><img src="./assets/images/shoe3.jpg" alt=""></div>
+                <div class="desc">Shoes</div>
+                <div class="title">Vans Fashion Shoes</div>
+                <div class="box">
+                    <div class="price">$30</div>
+                    <button class="add-to-cart btn" data-id="13" data-name="shoes" data-price="30" data-image="./assets/images/shoe3.jpg" >Add to Cart</button>
+                </div>
+            </div>
+            <!-- end -->
+
+             <!-- start -->
+            <div class="card product">
+                <div class="img"><img src="./assets/images/shoe4.jpg" alt=""></div>
+                <div class="desc">Shoes</div>
+                <div class="title">Nike Shoes</div>
+                <div class="box">
+                    <div class="price">$45</div>
+                    <button class="add-to-cart btn" data-id="14" data-name="shoes" data-price="45" data-image="./assets/images/shoe4.jpg" >Add to Cart</button>
+                </div>
+            </div>
+            <!-- end -->
+
+             <!-- start -->
+            <div class="card product">
+                <div class="img"><img src="./assets/images/shoe5.jpg" alt=""></div>
+                <div class="desc">Shoes</div>
+                <div class="title">Adidas Shoes </div>
+                <div class="box">
+                    <div class="price">$40</div>
+                    <button class="add-to-cart btn" data-id="15" data-name="shoes" data-price="40" data-image="./assets/images/shoe5.jpg" >Add to Cart</button>
+                </div>
+            </div>
+            <!-- end -->
+
+             <!-- start -->
+            <div class="card product">
+                <div class="img"><img src="./assets/images/shoe6.jpg" alt=""></div>
+                <div class="desc">Shoes</div>
+                <div class="title">All Star Shoes </div>
+                <div class="box">
+                    <div class="price">$49</div>
+                    <button class="add-to-cart btn" data-id="16" data-name="shoes" data-price="49" data-image="./assets/images/shoe6.jpg" >Add to Cart</button>
+                </div>
+            </div>
+            <!-- end -->
+
+             <!-- start -->
+            <div class="card product">
+                <div class="img"><img src="./assets/images/shoe7.jpg" alt=""></div>
+                <div class="desc">Shoes</div>
+                <div class="title">Leather Boots </div>
+                <div class="box">
+                    <div class="price">$50</div>
+                    <button class="add-to-cart btn" data-id="17" data-name="shoes" data-price="50" data-image="./assets/images/shoe7.jpg" >Add to Cart</button>
+                </div>
+            </div>
+            <!-- end -->
+
+             <!-- start -->
+            <div class="card product">
+                <div class="img"><img src="./assets/images/shoe8.jpg" alt=""></div>
+                <div class="desc">Shoes</div>
+                <div class="title">Adidas Terex Shoes</div>
+                <div class="box">
+                    <div class="price">$40</div>
+                    <button class="add-to-cart btn" data-id="18" data-name="shoes" data-price="40" data-image="./assets/images/shoe8.jpg" >Add to Cart</button>
+                </div>
+            </div>
+            <!-- end -->
+
+             <!-- start -->
+            <div class="card product">
+                <div class="img"><img src="./assets/images/shoe9.jpg" alt=""></div>
+                <div class="desc">Shoes</div>
+                <div class="title">Leather Sandals Shoes </div>
+                <div class="box">
+                    <div class="price">$30</div>
+                    <button class="add-to-cart btn" data-id="19" data-name="shoes" data-price="30" data-image="./assets/images/shoe9.jpg" >Add to Cart</button>
+                </div>
+            </div>
+            <!-- end -->
+
+             <!-- start -->
+            <div class="card product">
+                <div class="img"><img src="./assets/images/shoe19.jpg" alt=""></div>
+                <div class="desc">Shoes</div>
+                <div class="title">Women's Sandals </div>
+                <div class="box">
+                    <div class="price">$40</div>
+                    <button class="add-to-cart btn" data-id="20" data-name="shoes" data-price="10" data-image="./assets/images/shoe19.jpg" >Add to Cart</button>
+                </div>
+            </div>
+            <!-- end -->
+
+        </div>
+    </section>
+    <section class="sec" id="perfume"> <h1 class="mb-5 p-2"><span class="text-danger"> // </span>Perfumes</h1>
+        <div class="products">
+            <!-- start -->
+            <div class="card product">
+                <div class="img"><img src="./assets/images/perfum1.jpg" alt=""></div>
+                <div class="desc">Perfume</div>
+                <div class="title">Bleu De Chanel Parfum</div>
+                <div class="box">
+                    <div class="price">$60</div>
+                    <button class="add-to-cart btn" data-id="21" data-name="perfume" data-price="60" data-image="./assets/images/perfum1.jpg" >Add to Cart</button>
+                </div>
+            </div>
+            <!-- end -->
+
+             <!-- start -->
+            <div class="card product">
+                <div class="img"><img src="./assets/images/perfum2.png" alt=""></div>
+                <div class="desc">Perfume</div>
+                <div class="title">DIOR J'Adore Perfume</div>
+                <div class="box">
+                    <div class="price">$55</div>
+                    <button class="add-to-cart btn" data-id="22" data-name="perfume" data-price="55" data-image="./assets/images/perfum2.png" >Add to Cart</button>
+                </div>
+            </div>
+            <!-- end -->
+
+             <!-- start -->
+            <div class="card product">
+                <div class="img"><img src="./assets/images/perfum3.png" alt=""></div>
+                <div class="desc">Perfume</div>
+                <div class="title">Voronim Perfume</div>
+                <div class="box">
+                    <div class="price">$47</div>
+                    <button class="add-to-cart btn" data-id="23" data-name="perfume" data-price="47" data-image="./assets/images/perfum3.png" >Add to Cart</button>
+                </div>
+            </div>
+            <!-- end -->
+
+             <!-- start -->
+            <div class="card product">
+                <div class="img"><img src="./assets/images/perfum5.jpg" alt=""></div>
+                <div class="desc">Perfume</div>
+                <div class="title">EAU De Cologne Perfume</div>
+                <div class="box">
+                    <div class="price">$50</div>
+                    <button class="add-to-cart btn" data-id="24" data-name="perfume" data-price="50" data-image="./assets/images/perfum5.jpg" >Add to Cart</button>
+                </div>
+            </div>
+            <!-- end -->
+
+             <!-- start -->
+            <div class="card product">
+                <div class="img"><img src="./assets/images/perfume1.jpg" alt=""></div>
+                <div class="desc">Dodorant</div>
+                <div class="title">DAVIDOFF Dodorant</div>
+                <div class="box">
+                    <div class="price">$33</div>
+                    <button class="add-to-cart btn" data-id="25" data-name="dodorant" data-price="33" data-image="./assets/images/perfume1.jpg" >Add to Cart</button>
+                </div>
+            </div>
+            <!-- end -->
+
+             <!-- start -->
+            <div class="card product">
+                <div class="img"><img src="./assets/images/perfume2.jpg" alt=""></div>
+                <div class="desc">Fragrance</div>
+                <div class="title">Red Vanilla Fragrance</div>
+                <div class="box">
+                    <div class="price">$39</div>
+                    <button class="add-to-cart btn" data-id="26" data-name="fragrance" data-price="39" data-image="./assets/images/perfume2.jpg" >Add to Cart</button>
+                </div>
+            </div>
+            <!-- end -->
+
+             <!-- start -->
+            <div class="card product">
+                <div class="img"><img src="./assets/images/perfume3.png" alt=""></div>
+                <div class="desc">Perfume</div>
+                <div class="title">CHANEL Paris Parfum</div>
+                <div class="box">
+                    <div class="price">$54</div>
+                    <button class="add-to-cart btn" data-id="27" data-name="perfume" data-price="54" data-image="./assets/images/perfume3.png" >Add to Cart</button>
+                </div>
+            </div>
+            <!-- end -->
+
+             <!-- start -->
+            <div class="card product">
+                <div class="img"><img src="./assets/images/perfume5.jpg" alt=""></div>
+                <div class="desc">Perfume</div>
+                <div class="title">AL IBDAA Perfume</div>
+                <div class="box">
+                    <div class="price">$50</div>
+                    <button class="add-to-cart btn" data-id="28" data-name="perfume" data-price="50" data-image="./assets/images/perfume5.jpg" >Add to Cart</button>
+                </div>
+            </div>
+            <!-- end -->
+
+             <!-- start -->
+            <div class="card product">
+                <div class="img"><img src="./assets/images/perfume6.jpg" alt=""></div>
+                <div class="desc">Perfume</div>
+                <div class="title">Byredo Sellier Perfume</div>
+                <div class="box">
+                    <div class="price">$40</div>
+                    <button class="add-to-cart btn" data-id="29" data-name="perfume" data-price="40" data-image="./assets/images/perfume6.jpg" >Add to Cart</button>
+                </div>
+            </div>
+            <!-- end -->
+
+             <!-- start -->
+            <div class="card product">
+                <div class="img"><img src="./assets/images/perfume8.jpg" alt=""></div>
+                <div class="desc">Perfume</div>
+                <div class="title">Miss Dior Rose Essence</div>
+                <div class="box">
+                    <div class="price">$38</div>
+                    <button class="add-to-cart btn" data-id="30" data-name="perfume" data-price="38" data-image="./assets/images/perfume8.jpg" >Add to Cart</button>
+                </div>
+            </div>
+            <!-- end -->
+
+        </div>
+    </section>
+    <section class="sec" id="laptop"> <h1 class="mb-5 p-2"><span class="text-danger"> // </span>Laptops</h1>
+        <div class="products">
+            <!-- start -->
+            <div class="card product">
+                <div class="img"><img src="./assets/images/lap1.jpg" alt=""></div>
+                <div class="desc">Laptop</div>
+                <div class="title">HP Elitebook Laptop</div>
+                    <div class="desc">Core i5-8th generation <br> 16GB DDR4 RAM, 512 GB SSD Storage <br> With Keyboard Light </div>
+                <div class="box">
+                    <div class="price">$400</div>
+                    <button class="add-to-cart btn" data-id="31" data-name="laptop" data-price="400" data-image="./assets/images/lap1.jpg" >Add to Cart</button>
+                </div>
+            </div>
+            <!-- end -->
+
+             <!-- start -->
+            <div class="card product">
+                <div class="img"><img src="./assets/images/lap4.jpg" alt=""></div>
+                <div class="desc">Laptop</div>
+                <div class="title">HP Pavillion Laptop</div>
+                <div class="desc">Core i7-10th generation <br> 16GB DDR4 RAM, 512 GB SSD Storage <br> With Keyboard Light </div>
+                <div class="box">
+                    <div class="price">$450</div>
+                    <button class="add-to-cart btn" data-id="32" data-name="laptop" data-price="450" data-image="./assets/images/lap4.jpg" >Add to Cart</button>
+                </div>
+            </div>
+            <!-- end -->
+
+             <!-- start -->
+            <div class="card product">
+                <div class="img"><img src="./assets/images/lap12.jpg" alt=""></div>
+                <div class="desc">Laptop</div>
+                <div class="title">MSI Gaming Laptop</div>
+                <div class="desc">Core i5-11th generation <br> 32GB DDR5 RAM, 1TB SSD Storage <br>RTX 4060 Dedicated Grapics <br> With LED Keyboard Light  </div>
+                <div class="box">
+                    <div class="price">$950</div>
+                    <button class="add-to-cart btn" data-id="33" data-name="laptop" data-price="950" data-image="./assets/images/lap12.jpg" >Add to Cart</button>
+                </div>
+            </div>
+            <!-- end -->
+
+             <!-- start -->
+            <div class="card product">
+                <div class="img"><img src="./assets/images/lap13.jpg" alt=""></div>
+                <div class="desc">Laptop</div>
+                <div class="title">Hp ProBook Laptop</div>
+                <div class="desc">Core i7-10th generation <br> 16GB DDR4 RAM, 512 GB SSD Storage <br> With Keyboard Light </div>
+                <div class="box">
+                    <div class="price">$500</div>
+                    <button class="add-to-cart btn" data-id="34" data-name="laptop" data-price="500" data-image="./assets/images/lap13.jpg" >Add to Cart</button>
+                </div>
+            </div>
+            <!-- end -->
+
+             <!-- start -->
+            <div class="card product">
+                <div class="img"><img src="./assets/images/lap3.jpg" alt=""></div>
+                <div class="desc">Laptop</div>
+                <div class="title">Lenovo ThinkPad Laptop</div>
+                <div class="desc">Core i7-10th generation <br> 16GB RAM, 1TB SSD Storage <br> With White Keyboard Light </div>
+                <div class="box">
+                    <div class="price">$480</div>
+                    <button class="add-to-cart btn" data-id="35" data-name="laptop" data-price="480" data-image="./assets/images/lap3.jpg" >Add to Cart</button>
+                </div>
+            </div>
+            <!-- end -->
+
+             <!-- start -->
+            <div class="card product">
+                <div class="img"><img src="./assets/images/lap10.jpg" alt=""></div>
+                <div class="desc">Laptop</div>
+                <div class="title">Acer Predator Laptop</div>
+                <div class="desc">Core i5-12th generation <br> 16GB DDR4 RAM, 512 GB SSD Storage <br> With Keyboard Light </div>
+                <div class="box">
+                    <div class="price">$840</div>
+                    <button class="add-to-cart btn" data-id="36" data-name="laptop" data-price="840" data-image="./assets/images/lap10.jpg" >Add to Cart</button>
+                </div>
+            </div>
+            <!-- end -->
+
+             <!-- start -->
+            <div class="card product">
+                <div class="img"><img src="./assets/images/lap6.jpg" alt=""></div>
+                <div class="desc">Laptop</div>
+                <div class="title">Acer  Gaming Laptop</div>
+                <div class="desc">Core i7-12th generation <br> 32GB RAM, 1TB SSD Storage <br> With LED Keyboard Light </div>
+                <div class="box">
+                    <div class="price">$940</div>
+                    <button class="add-to-cart btn" data-id="37" data-name="laptop" data-price="940" data-image="./assets/images/lap6.jpg" >Add to Cart</button>
+                </div>
+            </div>
+            <!-- end -->
+
+             <!-- start -->
+            <div class="card product">
+                <div class="img"><img src="./assets/images/lap8.jpg" alt=""></div>
+                <div class="desc">Laptop</div>
+                <div class="title">HP ENVY Laptop</div>
+                <div class="desc">360 degree Convertible, Brand New <br> Core i7-10th generation <br> 16GB DDR4 RAM, 512 GB SSD Storage <br> With Keyboard Light </div>
+                <div class="box">
+                    <div class="price">$550</div>
+                    <button class="add-to-cart btn" data-id="38" data-name="laptop" data-price="550" data-image="./assets/images/lap8.jpg" >Add to Cart</button>
+                </div>
+            </div>
+            <!-- end -->
+
+        </div>
+    </section>
+    <section class="sec" id="watch"> <h1 class="mb-5 p-2"><span class="text-danger"> // </span>Watches</h1>
+        <div class="products">
+            <!-- start -->
+            <div class="card product">
+                <div class="img"><img src="./assets/images/watch1.jpg" alt=""></div>
+                <div class="desc">Watch</div>
+                <div class="title">Apple Smart Watch</div>
+                <div class="box">
+                    <div class="price">$70</div>
+                    <button class="add-to-cart btn" data-id="39" data-name="Watch" data-price="70" data-image="./assets/images/watch1.jpg" >Add to Cart</button>
+                </div>
+            </div>
+            <!-- end -->
+
+             <!-- start -->
+            <div class="card product">
+                <div class="img"><img src="./assets/images/watch2.jpg" alt=""></div>
+                <div class="desc">Watch</div>
+                <div class="title">SKMEI Dual Time Watch</div>
+                <div class="box">
+                    <div class="price">$45</div>
+                    <button class="add-to-cart btn" data-id="40" data-name="watch" data-price="45" data-image="./assets/images/watch2.jpg" >Add to Cart</button>
+                </div>
+            </div>
+            <!-- end -->
+
+             <!-- start -->
+            <div class="card product">
+                <div class="img"><img src="./assets/images/watch4.jpg" alt=""></div>
+                <div class="desc">Watch</div>
+                <div class="title">MW BiDen Golden Watch</div>
+                <div class="box">
+                    <div class="price">$60</div>
+                    <button class="add-to-cart btn" data-id="41" data-name="watch" data-price="60" data-image="./assets/images/watch4.jpg" >Add to Cart</button>
+                </div>
+            </div>
+            <!-- end -->
+
+             <!-- start -->
+            <div class="card product">
+                <div class="img"><img src="./assets/images/watch6.jpg" alt=""></div>
+                <div class="desc">Watch</div>
+                <div class="title">Tachymeter Silver  Watch</div>
+                <div class="box">
+                    <div class="price">$50</div>
+                    <button class="add-to-cart btn" data-id="42" data-name="watch" data-price="50" data-image="./assets/images/watch6.jpg" >Add to Cart</button>
+                </div>
+            </div>
+            <!-- end -->
+
+             <!-- start -->
+            <div class="card product">
+                <div class="img"><img src="./assets/images/watch8.jpg" alt=""></div>
+                <div class="desc">Watch</div>
+                <div class="title">SKMEI Watch</div>
+                <div class="box">
+                    <div class="price">$70</div>
+                    <button class="add-to-cart btn" data-id="43" data-name="watch" data-price="70" data-image="./assets/images/watch8.jpg" >Add to Cart</button>
+                </div>
+            </div>
+            <!-- end -->
+
+             <!-- start -->
+            <div class="card product">
+                <div class="img"><img src="./assets/images/watch10.jpg" alt=""></div>
+                <div class="desc">Watch</div>
+                <div class="title">Diollo DIO20 Auto Watch</div>
+                <div class="box">
+                    <div class="price">$60</div>
+                    <button class="add-to-cart btn" data-id="44" data-name="watch" data-price="60" data-image="./assets/images/watch10.jpg" >Add to Cart</button>
+                </div>
+            </div>
+            <!-- end -->
+
+             <!-- start -->
+            <div class="card product">
+                <div class="img"><img src="./assets/images/watch11.jpg" alt=""></div>
+                <div class="desc">Watch</div>
+                <div class="title">LIGE Men's Watch</div>
+                <div class="box">
+                    <div class="price">$80</div>
+                    <button class="add-to-cart btn" data-id="45" data-name="watch" data-price="0" data-image="./assets/images/watch11.jpg" >Add to Cart</button>
+                </div>
+            </div>
+            <!-- end -->
+
+             <!-- start -->
+            <div class="card product">
+                <div class="img"><img src="./assets/images/watch12.jpg" alt=""></div>
+                <div class="desc">Watch</div>
+                <div class="title">Oulm Triple Watch</div>
+                <div class="box">
+                    <div class="price">$40</div>
+                    <button class="add-to-cart btn" data-id="46" data-name="watch" data-price="40" data-image="./assets/images/watch12.jpg" >Add to Cart</button>
+                </div>
+            </div>
+            <!-- end -->
+
+             <!-- start -->
+            <div class="card product">
+                <div class="img"><img src="./assets/images/watch13.jpg" alt=""></div>
+                <div class="desc">Watch</div>
+                <div class="title">SVESTON Golden Watch</div>
+                <div class="box">
+                    <div class="price">$55</div>
+                    <button class="add-to-cart btn" data-id="47" data-name="watch" data-price="55" data-image="./assets/images/watch13.jpg" >Add to Cart</button>
+                </div>
+            </div>
+            <!-- end -->
+
+             <!-- start -->
+            <div class="card product">
+                <div class="img"><img src="./assets/images/watch5.jpg" alt=""></div>
+                <div class="desc">Watch</div>
+                <div class="title">Apple Watch</div>
+                <div class="box">
+                    <div class="price">$69</div>
+                    <button class="add-to-cart btn" data-id="48" data-name="watch" data-price="69" data-image="./assets/images/watch3.jpg" >Add to Cart</button>
+                </div>
+            </div>
+            <!-- end -->
+
+        </div>
+    </section>
+    <section class="sec" id="jacket"> <h1 class="mb-5 p-2"><span class="text-danger"> // </span>Jackets</h1>
+        <div class="products">
+            <!-- start -->
+            <div class="card product">
+                <div class="img"><img src="./assets/images/jack1.jpg" alt=""></div>
+                <div class="desc">Jacket</div>
+                <div class="title">Jeans Jacket</div>
+                <div class="box">
+                    <div class="price">$20</div>
+                    <button class="add-to-cart btn" data-id="49" data-name="lap" data-price="20" data-image="./assets/images/jack1.jpg" >Add to Cart</button>
+                </div>
+            </div>
+            <!-- end -->
+
+             <!-- start -->
+            <div class="card product">
+                <div class="img"><img src="./assets/images/jack2.png" alt=""></div>
+                <div class="desc">Jacket</div>
+                <div class="title">Green Women's Jacket</div>
+                <div class="box">
+                    <div class="price">$20</div>
+                    <button class="add-to-cart btn" data-id="50" data-name="jacket" data-price="20" data-image="./assets/images/jack2.png" >Add to Cart</button>
+                </div>
+            </div>
+            <!-- end -->
+
+             <!-- start -->
+            <div class="card product">
+                <div class="img"><img src="./assets/images/jack3.png" alt=""></div>
+                <div class="desc">Jacket</div>
+                <div class="title">Crivit Sport Jacket</div>
+                <div class="box">
+                    <div class="price">$40</div>
+                    <button class="add-to-cart btn" data-id="51" data-name="jacket" data-price="40" data-image="./assets/images/jack3.png" >Add to Cart</button>
+                </div>
+            </div>
+            <!-- end -->
+
+             <!-- start -->
+            <div class="card product">
+                <div class="img"><img src="./assets/images/jack4.jpg" alt=""></div>
+                <div class="desc">Jacket</div>
+                <div class="title">Men's Quilted Jacket</div>
+                <div class="box">
+                    <div class="price">$45</div>
+                    <button class="add-to-cart btn" data-id="52" data-name="jacket" data-price="45" data-image="./assets/images/jack4.jpg" >Add to Cart</button>
+                </div>
+            </div>
+            <!-- end -->
+
+             <!-- start -->
+            <div class="card product">
+                <div class="img"><img src="./assets/images/jack5.png" alt=""></div>
+                <div class="desc">Jacket</div>
+                <div class="title">SKI Jacket</div>
+                <div class="box">
+                    <div class="price">$30</div>
+                    <button class="add-to-cart btn" data-id="53" data-name="jacket" data-price="30" data-image="./assets/images/jack5.png" >Add to Cart</button>
+                </div>
+            </div>
+            <!-- end -->
+
+             <!-- start -->
+            <div class="card product">
+                <div class="img"><img src="./assets/images/jack6.png" alt=""></div>
+                <div class="desc">Jacket</div>
+                <div class="title">High Quality Jacket</div>
+                <div class="box">
+                    <div class="price">$66</div>
+                    <button class="add-to-cart btn" data-id="54" data-name="jacket" data-price="66" data-image="./assets/images/jack6.png" >Add to Cart</button>
+                </div>
+            </div>
+            <!-- end -->
+
+             <!-- start -->
+            <div class="card product">
+                <div class="img"><img src="./assets/images/jack7.png" alt=""></div>
+                <div class="desc">Jacket</div>
+                <div class="title">Atom LT Jacket</div>
+                <div class="box">
+                    <div class="price">$49</div>
+                    <button class="add-to-cart btn" data-id="55" data-name="jacket" data-price="49" data-image="./assets/images/jack7.png" >Add to Cart</button>
+                </div>
+            </div>
+            <!-- end -->
+
+             <!-- start -->
+            <div class="card product">
+                <div class="img"><img src="./assets/images/jack8.png" alt=""></div>
+                <div class="desc">Jacket</div>
+                <div class="title">North Face Danali Jacket</div>
+                <div class="box">
+                    <div class="price">$62</div>
+                    <button class="add-to-cart btn" data-id="56" data-name="jacket" data-price="62" data-image="./assets/images/jack8.png" >Add to Cart</button>
+                </div>
+            </div>
+            <!-- end -->
+
+             <!-- start -->
+            <div class="card product">
+                <div class="img"><img src="./assets/images/jack9.png" alt=""></div>
+                <div class="desc">Jacket</div>
+                <div class="title">Women's Leather Jacket</div>
+                <div class="box">
+                    <div class="price">$70</div>
+                    <button class="add-to-cart btn" data-id="57" data-name="jacket" data-price="70" data-image="./assets/images/jack9.png" >Add to Cart</button>
+                </div>
+            </div>
+            <!-- end -->
+
+             <!-- start -->
+            <div class="card product">
+                <div class="img"><img src="./assets/images/jack10.png" alt=""></div>
+                <div class="desc">Jacket</div>
+                <div class="title">Men's Black Jacket</div>
+                <div class="box">
+                    <div class="price">$50</div>
+                    <button class="add-to-cart btn" data-id="58" data-name="jacket" data-price="50" data-image="./assets/images/jack10.png" >Add to Cart</button>
+                </div>
+            </div>
+            <!-- end -->
+
+        </div>
+    </section>
+    <section class="sec" id="phone"> <h1 class="mb-5 p-2"><span class="text-danger"> // </span>Smart Phones</h1>
+        <div class="products">
+            <!-- start -->
+            <div class="card product">
+                <div class="img"><img src="./assets/images/p1.jpg" alt=""></div>
+                <div class="desc">Phone</div>
+                <div class="title">iPhone 13ProMax</div>
+                <div class="box">
+                    <div class="price">$300</div>
+                    <button class="add-to-cart btn" data-id="59" data-name="phone" data-price="300" data-image="./assets/images/p.jpg" >Add to Cart</button>
+                </div>
+            </div>
+            <!-- end -->
+
+             <!-- start -->
+            <div class="card product">
+                <div class="img"><img src="./assets/images/p2.jpg" alt=""></div>
+                <div class="desc">Phone</div>
+                <div class="title">Samsung Galaxy M32 5G</div>
+                <div class="box">
+                    <div class="price">$100</div>
+                    <button class="add-to-cart btn" data-id="60" data-name="phone" data-price="100" data-image="./assets/images/p2.jpg" >Add to Cart</button>
+                </div>
+            </div>
+            <!-- end -->
+
+             <!-- start -->
+            <div class="card product">
+                <div class="img"><img src="./assets/images/p3.jpg" alt=""></div>
+                <div class="desc">Phone</div>
+                <div class="title">Samsung Galaxy M12</div>
+                <div class="box">
+                    <div class="price">$110</div>
+                    <button class="add-to-cart btn" data-id="61" data-name="phone" data-price="110" data-image="./assets/images/p3.jpg" >Add to Cart</button>
+                </div>
+            </div>
+            <!-- end -->
+
+             <!-- start -->
+            <div class="card product">
+                <div class="img"><img src="./assets/images/p4.jpg" alt=""></div>
+                <div class="desc">Phone</div>
+                <div class="title">Samsung Note20 Ultra 5G</div>
+                <div class="box">
+                    <div class="price">$140</div>
+                    <button class="add-to-cart btn" data-id="62" data-name="phone" data-price="140" data-image="./assets/images/p4.jpg" >Add to Cart</button>
+                </div>
+            </div>
+            <!-- end -->
+
+             <!-- start -->
+            <div class="card product">
+                <div class="img"><img src="./assets/images/p5.jpg" alt=""></div>
+                <div class="desc">Phone</div>
+                <div class="title">Samsung Galaxy M13 5G</div>
+                <div class="box">
+                    <div class="price">$110</div>
+                    <button class="add-to-cart btn" data-id="63" data-name="phone" data-price="110" data-image="./assets/images/p5.jpg" >Add to Cart</button>
+                </div>
+            </div>
+            <!-- end -->
+
+             <!-- start -->
+            <div class="card product">
+                <div class="img"><img src="./assets/images/p6.jpg" alt=""></div>
+                <div class="desc">Phone</div>
+                <div class="title">iPhone 13Pro</div>
+                <div class="box">
+                    <div class="price">$240</div>
+                    <button class="add-to-cart btn" data-id="64" data-name="phone" data-price="240" data-image="./assets/images/p6.jpg" >Add to Cart</button>
+                </div>
+            </div>
+            <!-- end -->
+
+             <!-- start -->
+            <div class="card product">
+                <div class="img"><img src="./assets/images/p7.jpg" alt=""></div>
+                <div class="desc">Phone</div>
+                <div class="title">Samsung Galaxy S22 Ultra</div>
+                <div class="box">
+                    <div class="price">$140</div>
+                    <button class="add-to-cart btn" data-id="65" data-name="phone" data-price="140" data-image="./assets/images/p7.jpg" >Add to Cart</button>
+                </div>
+            </div>
+            <!-- end -->
+
+             <!-- start -->
+            <div class="card product">
+                <div class="img"><img src="./assets/images/p8.jpg" alt=""></div>
+                <div class="desc">Phone</div>
+                <div class="title">Samsung Galaxy A55 5G</div>
+                <div class="box">
+                    <div class="price">$100</div>
+                    <button class="add-to-cart btn" data-id="66" data-name="phone" data-price="100" data-image="./assets/images/p8.jpg" >Add to Cart</button>
+                </div>
+            </div>
+            <!-- end -->
+
+             <!-- start -->
+            <div class="card product">
+                <div class="img"><img src="./assets/images/p10.jpg" alt=""></div>
+                <div class="desc">Phone</div>
+                <div class="title">iPhone 13 ProMax</div>
+                <div class="box">
+                    <div class="price">$230</div>
+                    <button class="add-to-cart btn" data-id="67" data-name="phone" data-price="230" data-image="./assets/images/p10.jpg" >Add to Cart</button>
+                </div>
+            </div>
+            <!-- end -->
+
+             <!-- start -->
+            <div class="card product">
+                <div class="img"><img src="./assets/images/p11.jpg" alt=""></div>
+                <div class="desc">Phone</div>
+                <div class="title">Samsung Galaxy Flip 3 </div>
+                <div class="box">
+                    <div class="price">$150</div>
+                    <button class="add-to-cart btn" data-id="68" data-name="phone" data-price="150" data-image="./assets/images/p11.jpg" >Add to Cart</button>
+                </div>
+            </div>
+            <!-- card end -->
+        </div>
+    </section>
+        
+    <div id="shopping-cart">  
+        <h2>Shopping Cart</h2>
+        <div id="cart-items">
+        </div>
+        <div id="empty">
+            <i class="bi bi-bag-x-fill fa-10x text-center"></i> <br> 
+            <h3>Ops!.. No Products Added to the Cart...</h3> <br>
+        </div>
+        <p class="fw-bold fs-5 mx-4">Total: $<span id="cart-total">0.00</span></p> 
+        <div class="btn">
+           <a href="./index.html">
+            <button class="p-4 rounded-pill fw-bold text-white" id="close">CLOSE</button>
+           </a>
+            <button class=" rounded-pill fw-bold" id="checkOut">CHECK OUT</button>
+        </div>
+
+    </div>
+<div id="payment" class="hidden">
+    <h3>Payment Methods</h3>
+    <h4 class="text-danger">Choose a Payment Method ...</h4> <br>
+    <div id="pay-with" class="cont">
+       <button id="telebirr"  class="pay-btn">PAY Via TELEBIRR<img src="./assets/images/Telebirr.png" alt="Telebirr"></button>
+       <button id="cbe" class="pay-btn">PAY Via CBE  <img src="./assets/images/cbe.jpg" alt="CBE"></button>
+       <button id="amole" class="pay-btn">PAY Via Amole <img src="./assets/images/Amole.webp" alt="Amole"></button>
+       <button id="boa" class="pay-btn">PAY Via BOA <img src="./assets/images/boa.jpg" alt="BOA"></button>
+       <button id="ebirr" class="pay-btn">PAY Via E-BIRR <img src="./assets/images/ebirr.png" alt="E-BIRR"></button> <br> <br>
+       <div id="success" class="fw-bold p-4 text-center text-wrap text-primary fs-6">
+       </div>
+        <h3 id="inner-success" class="text-center bg-success rounded-pill fs-5"> 
+        </h3>
+        <p id="successful" class="fw-bold p-4 text-center text-wrap text-success fs-6">
+            <a class="text-white" href="./index.html">    
+                <h3 id="back" class="text-center bg-danger rounded-pill">Close 
+                </h3>
+            </a>
+        </p>
+   </div>
+</div>
+<div id="to-apply" class=""> </div>
+
+<footer class="footer-wrapper" id="footer">
+    <div class="footer-left">
+        <h3>YUNUS<span><sup>Store</sup></span></h3>
+        <p class="footer-links">
+            <a href="index.html">Home</a>
+            |
+            <a href="#footer">About</a>
+            |
+            <a href="#footer">Contact</a>
+        </p>
+        <p class="footer-cr">Copyright © 2024 <strong>YunusStore </strong> All rights reserved</p>
+    </div>
+    <div class="footer-center"> 
+        <div>
+            <i class="fa fa-map-marker"></i>
+            <p><span>Addis Ababa</span>
+                Ethiopia</p>
+        </div>
+        <div>
+            <i class="fa fa-phone"></i>
+            <p>+251 973 179 443</p>
+        </div>
+        <div>
+            <i class="fa fa-envelope"></i>
+            <p><a href="mailto:yunusk7317@gmail.com">yunusk7317@gmail.com</a></p>
+        </div>
+    </div>
+    <div class="footer-right">
+        <p class="footer-about">
+            <span>About</span>
+            <strong>Yunus Store</strong> is E-commerce website, where customers can found products, shopping online and allows them to add some products to their "cart".          
+        </p>
+        <div class="footer-icons">
+            <a href="https://t.me/Yunusk123"><i class="fa fa-telegram"></i></a>
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.instagram.com/yunusk989?igsh=YzljYTk1ODg3Zg=="><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+        </div>
+    </div>
+</footer>
+
+<script src="./assets/script.js"></script>
+</body>
+</html>
